@@ -8,7 +8,7 @@ class Medico extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.pink,
+        backgroundColor: Colors.white,
         body: Column(
           children: [
             Container(

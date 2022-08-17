@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medical_app/components/ophthalmologist_main_card.dart';
+import 'package:medical_app/pages/time_slot.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(fontFamily: "Poppins"),
       debugShowCheckedModeBanner: false,
-      home: const MyCard(),
+      home: const TimeSlot(),
     );
   }
 }

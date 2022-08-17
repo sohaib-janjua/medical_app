@@ -72,25 +72,21 @@ class OtpVerication extends StatelessWidget {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               border: Border.all(color: Colors.black26)),
-                          child: Row(
-                            children: [
-                              Flexible(
-                                child: TextFormField(
-                                  keyboardType: TextInputType.number,
-                                  decoration: InputDecoration(
-                                      contentPadding: const EdgeInsets.only(
-                                          top: 7, left: 10),
-                                      hintText: '03081060364',
-                                      suffixIcon: Padding(
-                                        padding: const EdgeInsets.only(top: 5),
-                                        child: SvgPicture.asset(
-                                          "assets/svg/tickbutton.svg",
-                                        ),
-                                      ),
-                                      border: InputBorder.none),
-                                ),
-                              ),
-                            ],
+                          child: Flexible(
+                            child: TextFormField(
+                              keyboardType: TextInputType.number,
+                              decoration: InputDecoration(
+                                  contentPadding:
+                                      const EdgeInsets.only(top: 7, left: 10),
+                                  hintText: '03081060364',
+                                  suffixIcon: Padding(
+                                    padding: const EdgeInsets.only(top: 5),
+                                    child: SvgPicture.asset(
+                                      "assets/svg/tickbutton.svg",
+                                    ),
+                                  ),
+                                  border: InputBorder.none),
+                            ),
                           ),
                         ),
                       ],
